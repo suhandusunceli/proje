@@ -5,7 +5,7 @@ struct SplashScreen: View {
     
     var body: some View {
         if isActive {
-            MainTabView()
+            LoginView()
         } else {
             VStack {
                 Image("FinHelperLogo")
